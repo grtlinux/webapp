@@ -10,7 +10,7 @@ import sample.spring.chapter10.domain.FixedDepositDetails;
 
 @Repository
 public class FixedDepositDaoImpl implements FixedDepositDao {
-	
+
 	private List<FixedDepositDetails> fdList;
 
 	public FixedDepositDaoImpl() {
@@ -20,7 +20,7 @@ public class FixedDepositDaoImpl implements FixedDepositDao {
 		fdList.add(new FixedDepositDetails(3, "30000", "36", "a3email@somedomain.com"));
 		fdList.add(new FixedDepositDetails(4, "50000", "36", "a4email@somedomain.com"));
 		fdList.add(new FixedDepositDetails(5, "15000", "36", "a5email@somedomain.com"));
-		fdList.add(new FixedDepositDetails(5, "18000", "32", "a6email@somedomain.com"));
+		//fdList.add(new FixedDepositDetails(5, "18000", "32", "a6email@somedomain.com"));
 	}
 
 	public List<FixedDepositDetails> getFixedDeposits() {
